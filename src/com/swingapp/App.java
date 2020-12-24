@@ -20,6 +20,7 @@ public class App implements ActionListener {
 
     public static void main(String[] args){
 
+
         panel = new JPanel();
         frame = new JFrame();
 
@@ -35,7 +36,7 @@ public class App implements ActionListener {
 
         label = new JLabel("Le Saviez-vous?");
 
-        label.setBounds(10,50,200,25);
+        label.setBounds(10,50,900,25);
 
         label.setFont(new Font("Comic Sans MS",Font.PLAIN,19));
         panel.add(label);
@@ -68,13 +69,21 @@ public class App implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         ArrayList<String> quotes = new ArrayList<>();
-        quotes.add("Etre amoureux vous rend fainéant");
+        quotes.add("Etre amoreaux vous rend fanéant");
+        quotes.add("Bonjour");
+        quotes.add("Hello");
+        quotes.add("mery");
+        quotes.add("mer");
+        quotes.add("meeeeeeeeeer");
+        quotes.add("voooooooooooooooo");
+        quotes.add("Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
+        quotes.add("HI1111111111111111111111111111111");
 
 
 
 
 
-        int indx = (int) (Math.random()* (quotes.size()  - 1) + 0);
+        int indx = (int) (Math.random()* (quotes.size()) + 0);
         Random color = new Random();
 
 
